@@ -1,0 +1,13 @@
+1. di cmd buka folder project, ketik "npm init" untuk insialisasi project (package.json)
+2. buat app.js di folder
+3. install lib express, "npm i express mysql bcrypt jsonwebtoken"
+4. folder config : konfigurasi database di file db.js //ref:mysql npm packages
+5. hide information using dotenv
+    npm install dotenv
+    lalu buat file .env unutk menyimpan semua data yang dirahasiakan, tanpa koma
+6. install nodemon di dev dependencies "npm i --save-dev nodemon"
+7. file .gitignore, agar saat push ke github, file yang di dalam nya tidak akan ikut
+8. folder api : file" service => controller => router
+
+
+notes: baru sampe download lib jwt
